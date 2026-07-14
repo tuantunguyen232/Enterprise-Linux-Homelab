@@ -12,8 +12,7 @@
 | ------------- | ----------------------- |
 | Hypervisor    | Oracle VirtualBox       |
 | Server        | Ubuntu Server 24.04 LTS |
-| Client        | Ubuntu Desktop          |
-| Client        | Windows 10              |
+| Client        | Ubuntu Desktop 26.04 LTS, Windows 11          |
 | Firewall      | UFW                     |
 | File Sharing  | Samba                   |
 | Remote Access | OpenSSH                 |
