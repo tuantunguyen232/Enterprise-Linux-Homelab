@@ -7,3 +7,13 @@
 - Tự động hóa các tác vụ quản trị.
 - Hiểu cách triển khai các dịch vụ cơ bản trên Linux Server.
 - Chuẩn bị kiến thức cho vị trí Intern IT Helpdesk / IT Support / IT System.
+
+| Thành phần    | Công nghệ               |
+| ------------- | ----------------------- |
+| Hypervisor    | Oracle VirtualBox       |
+| Server        | Ubuntu Server 24.04 LTS |
+| Client        | Ubuntu Desktop          |
+| Client        | Windows 10              |
+| Firewall      | UFW                     |
+| File Sharing  | Samba                   |
+| Remote Access | OpenSSH                 |
