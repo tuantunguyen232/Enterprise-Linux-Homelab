@@ -16,3 +16,74 @@
 | Firewall      | UFW                     |
 | File Sharing  | Samba                   |
 | Remote Access | OpenSSH                 |
+
+##Các nội dung đã triển khai
+
+###Linux Administration
+- Quản lý User
+- Quản lý Group
+- File Permission
+- Ownership
+- sudo
+
+###SSH
+Cài đặt OpenSSH Server
+Đăng nhập bằng Password
+SSH Key Authentication
+Quản lý Public Key
+Vô hiệu hóa Root Login
+
+###Samba
+Cấu hình Samba Server
+Tạo Department Share
+Public Share
+Samba User
+Kiểm tra truy cập từ Windows
+Kiểm tra truy cập từ Ubuntu Desktop
+
+###Firewall
+Cấu hình UFW
+Allow Rule
+Deny Rule
+Mở Port SSH
+Mở Port Samba
+
+###Backup
+Backup bằng tar
+Restore dữ liệu
+Bash Script tự động Backup
+
+###Cron
+Tự động chạy Backup Script
+Kiểm tra Cron Job
+Bash Script
+
+###Xây dựng Health Check Script có khả năng:
+- Kiểm tra SSH Service
+- Kiểm tra Samba Service
+- Kiểm tra Firewall
+- Kiểm tra CPU Load
+- Kiểm tra Memory Usage
+- Kiểm tra Disk Usage
+- Kiểm tra Uptime
+
+##Kỹ năng đạt được
+- Linux Administration
+- Bash Scripting
+- SSH
+- Samba
+- UFW Firewall
+- Backup & Restore
+- Cron Job
+
+##Định hướng phát triển
+
+Dự án sẽ tiếp tục được mở rộng với các nội dung:
+
+- Apache Web Server
+- Nginx
+- Docker
+- DNS Server
+- Reverse Proxy
+- Monitoring
+- Log Management
