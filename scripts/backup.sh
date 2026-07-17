@@ -1,4 +1,5 @@
 #!/bin/bash
+#Script sao lưu các thư mục ở samba theo ngày, có thể phát triển cron để tự động sao lưu hàng ngày, hàng tuần hoặc hàng tháng 
 
 if [ "$EUID" -ne 0 ]; then
 	echo "This script must be run as root."
