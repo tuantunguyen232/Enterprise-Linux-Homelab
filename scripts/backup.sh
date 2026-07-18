@@ -1,6 +1,6 @@
 #!/bin/bash
-#Script sao lưu các thư mục ở samba theo ngày, có thể phát triển cron để tự động sao lưu hàng ngày, hàng tuần hoặc hàng tháng 
 
+#Kiem tra xem co chay quyen root khong
 if [ "$EUID" -ne 0 ]; then
 	echo "This script must be run as root."
 	exit 1
@@ -14,4 +14,19 @@ DATE=$(date +%F)
 
 FILE_NAME="samba_${DATE}.tar.gz"
 
+#Thuc hien backup
 tar -czf "$BACKUP_DIR/$FILE_NAME" "$SOURCE"
+
+
+#Kiem tra ket qua
+if [ $? -eq 0 ]
+then
+	echo
+	echo "==================================="
+	echo "Backup completed successfully!"
+	echo "Archive: $BACKUP_DIR/$FILE_NAME"
+	echo "==================================="
+else
+	echo
+	echo "Backup failed!"
+fi
